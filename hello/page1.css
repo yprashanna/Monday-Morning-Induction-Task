@@ -1,0 +1,317 @@
+body{
+    background-color: rgb(222, 216, 207);
+}
+.container{
+    background-color: yellow;
+    width: 80vw;
+    height: 80vh;
+    margin: 70px 100px;
+    /* padding: 3px; */
+    display: flex;
+    
+   
+}
+.box1{
+    width: 14vw;
+    height: 80vh;
+    background-color: rgb(244, 240, 234);
+    
+}
+.image{
+    position: relative;
+    left: 87px;
+    top: 30px;
+    
+}
+.box1 p{
+    text-align: center;
+    font-weight: 1000;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 5px;
+    padding: 2px;
+    font-weight: 1000;
+    
+   
+}
+nav ul ul li{
+    position: relative;
+    right: 10px;
+    list-style: square;
+    margin: 2px;
+    padding: 2px 0px;
+    color: light black ;
+    font-weight: 300;
+    
+}
+
+.last{
+    position: relative;
+    top: 150px;
+    left: 25px;
+}
+
+
+.box2{
+    width: 20vw;
+    height: 80vh;
+    background-color: white;
+   
+}
+.box2a{
+    display: flex;
+    align-items: center;
+    
+}
+.box2b{
+ margin: 20px;  
+ font-weight: 900;
+
+ 
+}
+.jun{
+    color: grey;
+    font-size: small;
+    font-weight: 400;
+}
+.box2c{
+    position: relative;
+    left: 78px;
+    margin: 20px;
+    font-family:  Helvetica, sans-serif;
+}
+.box3{
+  
+    width: 36vw;
+    height: 80vh;
+    background-color: rgb(245, 249, 249);
+
+}
+
+.box4{
+    width: 11vw;
+    height: 80vh;
+    background-color: rgb(255, 254, 253);
+}
+
+
+.sustain{
+    font-weight: 900;
+    margin: 10px;
+    font-size: 18px;
+
+}
+.pic{
+    margin: 10px;
+    display: inline-block;
+
+}
+.team{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+
+}
+
+.pic1{
+    display: inline-block;
+    width: 17vw;
+    height: 17vh;
+    background-image: url(18.jpg);
+    background-size: 100% 100%;
+    margin:17px;
+}
+
+.pic2{
+    width: 8.3vw;
+    height: 30vh;
+    display: inline-block;
+    background-image: url(19.jpg);
+    background-size:100% 100%;
+    margin: 5px 8px;
+    background-attachment: fixed;
+}
+.contain{
+    display: flex;
+}
+.pic3{
+    width: 8.3vw;
+    height: 30vh;
+    display: inline-block;
+    background-image: url(20.jpg);
+    background-size: 100% 100%;
+    margin: 5px;
+}
+.view{
+    position: relative;
+    display: inline-block;
+    left: 280px;
+    font-size: small;
+}
+.month{
+    margin: 10px 30px;
+    display: inline-block;
+    font-weight: 550;
+    
+}
+
+
+.box3ab{
+    width: 30vw;
+    height: 12vh;
+    border: 1px solid wheat;
+    border-radius: 5px;
+margin: 5px 34px;
+}
+.box3bc{
+    width: 30vw;
+    height: 12vh;
+    border: 1px solid wheat;
+    border-radius: 5px;
+margin: 5px 34px;
+}
+.box3ac{
+    width: 30vw;
+    height: 12vh;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin: 5px 34px;
+}
+
+.learn{
+    margin: 5px;
+
+}
+.lecture{
+    margin: 5px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+width: 30vw;
+height: 23vh;
+/* border: 1px solid blue; */
+margin: 3px 20px;
+}
+.image1{
+display: inline-block;
+width: 13vw;
+height: 9.5vh;
+/* border: 1px solid orange; */
+margin:5px;
+}
+
+.profile img{
+    margin: 20px 50px;
+}
+.message{
+position: relative;
+top: 300px;
+width: 8vw;
+height: 25vh;
+/* border: 1px solid red; */
+margin: 15px;
+}
+.message img{
+    margin: 8px 30px;
+}
+
+.multi{
+    font-weight: 1000;
+    margin: 3px 10px;
+}
+.next{
+    font-size: 15px;
+    margin: 3px 10px;
+    color: grey;
+}
+.feedback{
+    margin: 0px 10px;
+    margin: 10px 10px;
+}
+.harmony{
+    font-size: 15px;
+    margin: 0px 10px;
+    color: grey;
+
+}
+.protein{
+    margin: 0px 10px;
+    font-weight: 1000;
+}
+.deadline{
+    margin: 9px 10px;
+}
+.pharma{
+    margin: 3px 10px;
+    font-size: 15px;
+    color: grey;
+
+}
+.quick{
+    margin: 0px 10px;
+    font-weight: 1000;
+}
+.accept{
+    margin: 9px 10px;
+}
+.learn{
+  margin: 4px 30px;  
+  font-weight: 800;
+}
+.lecture{
+    margin: 0px 30px;
+    color: grey;
+    font-size: 15px;
+}
+.riddle{
+margin: 0px 45px;
+}
+
+.report{
+    margin: 5px;
+    font-size: 20px;
+}
+.pic1a{
+    margin: 5px ;
+    color: grey;
+    font-size: medium;
+}
+#btn{
+  font-size: 15px;
+  background-color: rgb(62, 76, 228);
+  color: white;  
+  border-radius: 4px;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+
+.study{
+    margin: 10px 20px;
+    font-weight: 550;
+}
+.progress{
+    font-size: 13px;
+    margin: 3px 20px;
+    color: grey;
+}
+
+.image1 img{
+    margin: 10px;
+}
+.virus{
+    position: relative;
+    top: -50px;
+    left: 80px;
+    font-weight: 600;
+}
+.pro{
+    color: grey;
+    font-size: small;
+    font-weight: 500;
+}
+
